@@ -1,0 +1,308 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+.inactive {
+  display: none;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+header #header {
+  padding: 0;
+}
+header #header .container {
+  padding: 6px;
+}
+header #header .container .navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+header #header .container .navbar-brand img {
+  width: 100px;
+  height: 40px;
+}
+header #header .container .navbar-nav {
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+header #header .container .navbar-nav :hover {
+  color: #f40303;
+}
+header #header .container .navbar-nav li {
+  margin: 0 6px;
+}
+header #header .container .navbar-nav .text-tickets {
+  color: #97c93e;
+}
+header #header .container .navbar-nav .text-tickets :hover {
+  color: white;
+}
+
+main {
+  /*--------------- Section Inicio -------------*/
+  /*--------------- Section-best -------------*/
+  /*--------------- Section-Tickets -------------*/
+  /*--------------- Section-login -------------*/
+}
+main #carousel {
+  position: relative;
+}
+main #carousel .carousel-item {
+  max-height: 580px;
+}
+main #carousel .carousel-item img {
+  max-height: 580px;
+}
+main #carousel .overlay {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  max-height: 550px;
+}
+main #carousel .overlay .logo-hh {
+  width: 80vw;
+  max-width: 760px;
+}
+main #carousel .overlay .bol-hh {
+  width: 50vw;
+  max-width: 470px;
+  cursor: pointer;
+}
+main #carousel .overlay .bol-hh:hover {
+  background-image: url("../assets/monito.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .section-main-title {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+main .section-main-title img {
+  height: 90vh;
+  padding: 0;
+  margin-bottom: 6px;
+}
+main .section-main-title .btn {
+  width: 70%;
+  margin: 15px auto;
+}
+main .section-main-title .btn a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: white;
+}
+main .best-container {
+  padding: 15px;
+}
+main .best-container .best-row {
+  gap: 15px;
+  height: auto;
+  border-radius: 2em;
+}
+main .best-container .best-row div {
+  max-width: 360px;
+  margin: 0 auto;
+  height: 50vh;
+  border-radius: 1em;
+  cursor: pointer;
+}
+main .best-container .best-row :nth-child(1) {
+  background-image: url("../assets/best-years/2010.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .best-container .best-row :nth-child(2) {
+  background-image: url("../assets/best-years/2011.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .best-container .best-row :nth-child(3) {
+  background-image: url("../assets/best-years/2013.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .best-container .best-row :nth-child(4) {
+  background-image: url("../assets/best-years/2014.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .best-container .best-row :nth-child(5) {
+  background-image: url("../assets/best-years/2016.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .best-container .best-row :nth-child(6) {
+  background-image: url("../assets/best-years/2018.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .best-container .best-row :nth-child(7) {
+  background-image: url("../assets/best-years/2020.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .best-container .best-row :nth-child(8) {
+  background-image: url("../assets/best-years/2020-copy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .best-container .best-row :nth-child(9) {
+  background-image: url("../assets/cartelhh23.jpeg");
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .section-tickets {
+  height: 85vh;
+  padding: 15px;
+  background-image: url("../assets/smalls/Fondo-3.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .section-tickets .tickets-container {
+  padding-top: 4vh;
+}
+main .section-tickets .tickets-container :nth-child(1) {
+  gap: 25px;
+}
+main .section-tickets .tickets-container table {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+main .section-tickets .tickets-container form {
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+main .section-tickets .tickets-container form input {
+  font-size: 1.6rem;
+  height: 35px;
+}
+main .section-tickets .tickets-container form select {
+  font-size: 1.4rem;
+  padding-left: 30px;
+}
+main .section-tickets .tickets-container form button {
+  font-size: 1.6rem;
+}
+main .section-login {
+  padding: 10px;
+  height: 90vh;
+  background-image: url("../assets/smalls/fondo5.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .section-login :nth-child(1) {
+  padding: 0;
+}
+main .section-login form {
+  color: white;
+  font-size: 1.6rem;
+}
+main .section-login form div {
+  margin: 12px 0 6px 0;
+}
+main .section-login form input, main .section-login form select {
+  font-size: 1.4rem;
+  height: 35px;
+}
+main .section-login form .form-check-input {
+  width: 15px;
+  height: 15px;
+}
+main .section-login form button {
+  font-size: 1.6rem;
+  font-weight: bold;
+  width: 200px;
+  height: 30px;
+}
+
+#footer {
+  background-color: #212529;
+  text-decoration: none;
+}
+#footer .row {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#footer a {
+  font-size: 1.4rem;
+  color: white;
+}
+#footer a img {
+  width: 25px;
+  height: 25px;
+  margin: 4px;
+}
+
+@media (min-width: 768px) {
+  .section-inicio #overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-inicio #overlay .row h2 {
+    font-size: 4rem;
+  }
+  .section-inicio #overlay .row p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .section-inicio #overlay video {
+    display: block;
+    width: auto;
+    height: 60vh;
+    position: absolute;
+    left: calc(40% - 200px);
+  }
+  .section-inicio .section-main-title img {
+    width: 60vw;
+    margin: 0 auto;
+  }
+}

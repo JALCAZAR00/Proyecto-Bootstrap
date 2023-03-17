@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+.inactive{
+    display: none;
+}
+@mixin back-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

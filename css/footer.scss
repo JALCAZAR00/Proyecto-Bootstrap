@@ -1,0 +1,17 @@
+#footer{
+    background-color: #212529; 
+    text-decoration: none;
+    .row{
+        flex-direction: column;
+    }
+    a{
+        font-size: 1.4rem;
+
+        color: white;
+        img{
+            width: 25px;
+            height: 25px;
+            margin: 4px;
+        }
+    }
+ }

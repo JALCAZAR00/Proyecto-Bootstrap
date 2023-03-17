@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    height: auto;
+    #header{
+        padding: 0;
+        .container{
+            padding: 6px;
+            .navbar-brand{
+                margin: 0;
+                padding: 0;
+                img{
+                    width: 100px;
+                    height: 40px;
+                }
+            }
+            .navbar-nav{
+                color: white;
+                font-size: 1.6rem;
+                cursor: pointer;
+                :hover{
+                    color: #f40303;
+                }
+                li{
+                    margin: 0 6px;
+                }
+                .text-tickets{
+                    color: #97c93e;
+                    :hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

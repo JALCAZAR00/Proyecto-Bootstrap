@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+    .section-inicio{
+        #overlay{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .row h2{
+                font-size: 4rem;
+            }
+            .row p{
+                font-size: 1.5rem;
+                line-height: 2rem;
+            }
+            video{
+                display: block;
+                width: auto;
+                height: 60vh;
+                position: absolute;
+                left: calc(40% - 200px);
+            }
+        }
+        .section-main-title{
+            img{
+                width: 60vw;
+                margin: 0 auto;
+            }
+        }
+    }
+}
